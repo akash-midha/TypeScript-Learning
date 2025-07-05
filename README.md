@@ -31,6 +31,16 @@ let nothing: void = undefined;
 let value: unknown = "unknown value";
 ```
 
+## Type Inference
+
+Type Inference means TypeScript automatically figures out the type of a variable even when you don’t explicitly write it.
+
+We need to add type explicitly only when type is unclear.
+```ts
+let name = "Akash"; // inferred as string
+let age = 25;        // inferred as number
+```
+
 ## 🔹 Functions
 
 Never Type: never represents value which are never observed. In return type, this means that function throws an exception or terminates execution of program.
